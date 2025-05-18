@@ -1,7 +1,9 @@
 # Project Omega – RecipeBox
 
 ## Project Overview
-Project Omega is an interactive recipe collection and meal planner web application. It allows users to add, categorize, and manage recipes, plan meals for the week, generate shopping lists, and search/filter recipes based on ingredients or tags.
+Project Omega is an interactive recipe collection and meal planner web application. It allows users to add, categorize, and manage recipes, plan meals for the week, generate shopping lists, and search/filter recipes based on ingredients or tags. 
+
+Try live link here, https://sebrekkristof.github.io/project_omega/
 
 ## Features
 - **Add Recipes**: Users can add new recipes through an editable form, specifying the recipe name, ingredients, steps, and images.
