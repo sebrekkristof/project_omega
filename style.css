@@ -1,0 +1,295 @@
+/* Alap stílusok */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; 
+    color: #333;
+}
+
+header {
+    background-color: #000000; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1, header h2 {
+    text-align: center;
+    font-size: 36px;
+    margin: 20px 0;
+    color: #fdfdfd; 
+    font-weight: bold;
+}
+
+/* Navigációs menü stílusa */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a,
+.nav-button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #000000; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    font-size: 16px;
+    width: 150px; 
+    display: inline-block; 
+}
+
+nav ul li a:hover,
+.nav-button:hover {
+    background-color: #333333; 
+}
+
+/* Fő tartalom */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Üdvözlő szöveg */
+#welcome {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#welcome h2 {
+    font-size: 28px;
+    color: #000000; 
+}
+
+#welcome p {
+    font-size: 18px;
+    color: #000000;
+}
+
+/* Form stílusok */
+.styled-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.styled-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.styled-form input,
+.styled-form select,
+.styled-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.styled-form textarea {
+    resize: vertical;
+}
+
+.styled-form .drag-drop {
+    border: 2px dashed #007bff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #f0f8ff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.styled-form .drag-drop:hover {
+    background-color: #e6f7ff;
+}
+
+.submit-button {
+    background-color: #000000; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3; 
+}
+
+/* Étkezési terv és bevásárlólista */
+#meal-planner, #shopping-list {
+    margin-top: 30px;
+}
+
+#meal-planner h2,
+#shopping-list h2 {
+    text-align: center;
+    color: #000000;
+}
+
+.meal-planner-container {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.generate-button {
+    background-color: #000000; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    transition: background-color 0.3s;
+}
+
+.generate-button:hover {
+    background-color: #333; 
+}
+
+#shopping-list-items {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#shopping-list-items li {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000000; 
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+#recipe-display {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#recipe-display h2 {
+    text-align: center;
+    color: #000000;
+}
+
+#recipe-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#recipe-list li {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#recipe-list p {
+    text-align: center;
+    color: #ff0000; /* Piros szöveg */
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#recipe-list img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+#search {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#search h2 {
+    text-align: center;
+    color: #000000;
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#search-results {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#search-results li {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
